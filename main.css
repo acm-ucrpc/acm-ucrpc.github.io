@@ -4,6 +4,7 @@ body {
 
 .jumbotron {
   height: 100vh;
+  margin-bottom: 0px;
 }
 
 #big-text {
@@ -13,6 +14,10 @@ body {
 }
 
 #apply-btn {
+}
+
+#second-jumbotron {
+  background-color: white;
 }
 
 .blurb {
