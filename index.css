@@ -1,0 +1,13 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#top-text {
+  margin-top: 16px;
+  text-align: center;
+}
+
+#huge-title {
+  font-size: 150px;
+  margin: auto;
+}
