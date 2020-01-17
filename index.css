@@ -52,3 +52,12 @@ li {
   margin-right: 3em;
   font-size: 2em;
 }
+
+.footer {
+  padding: 48px;
+}
+
+#rocket-icon {
+  width: 24px;
+  height: auto;
+}
