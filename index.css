@@ -1,15 +1,27 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  font-size: 9px;
+  background-color: black; 
 }
 
+
+/*ACM@UCR PRESENTS*/
 .top-text {
   margin-top: 20px;
   text-align: center;
+  letter-spacing:0.5em;
+  text-indent: 0.5em;
+  color: white;
 }
 
+/*UCRPC*/
 #huge-title {
-  font-size: 150px;
+  font-size: 17.66em;
+  letter-spacing:0.5em;
+  text-indent: 0.5em;
   margin: auto;
+  color: white;
+  font-weight: 400;
 }
 
 .textbox {
