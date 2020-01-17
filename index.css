@@ -1,7 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 9px;
-  background-color: black; 
 }
 
 
@@ -11,7 +10,7 @@ body {
   text-align: center;
   letter-spacing:0.5em;
   text-indent: 0.5em;
-  color: white;
+ /* color: white;*/
 }
 
 /*UCRPC*/
@@ -20,11 +19,15 @@ body {
   letter-spacing:0.5em;
   text-indent: 0.5em;
   margin: auto;
-  color: white;
+  /*color: white;*/
   font-weight: 400;
 }
 
 .textbox {
   margin-left: 100px;
   margin-right: 100px;
+}
+
+.about {
+  height: 100vh;
 }
