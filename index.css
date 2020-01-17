@@ -1,23 +1,36 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  font size: 10px;
+  /*background-color: black; */
+}
+
+/*html {
   font-size: 10px;
 }
+@media screen and (min-width: 1441px) {
+  html {
+    font-size: calc(10px + 6 * ((100vw - 320px) / 680));
+  }
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 12px;
+  }
+}*/
 
 
 /*ACM@UCR PRESENTS*/
 .top-text {
   font-size: 1.8em;
-  margin-top: 20px;
+  margin-top: 20vh;
   text-align: center;
   letter-spacing:0.5em;
   text-indent: 0.5em;
-
- /* color: white;*/
+  /*color: white;*/
 }
 
 /*UCRPC*/
 #huge-title {
-  font-size: 14.4em;
+  font-size: 13em;
   letter-spacing:0.5em;
   text-indent: 0.5em;
   margin: auto;
@@ -26,9 +39,15 @@ body {
 }
 
 .textbox {
-  margin-left: 3em;
-  margin-right: 3em;
-  font-size: 2em;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  font-size: 1em;
+}
+
+li {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  font-size: 1em;
 }
 
 .about {
