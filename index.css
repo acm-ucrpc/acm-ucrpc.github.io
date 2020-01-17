@@ -45,9 +45,9 @@ body {
 }
 
 li {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  font-size: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+  font-size: 1em!important;
 }
 
 .about {
