@@ -6,10 +6,12 @@ body {
 
 /*ACM@UCR PRESENTS*/
 .top-text {
+  font-size: 1em;
   margin-top: 20px;
   text-align: center;
   letter-spacing:0.5em;
   text-indent: 0.5em;
+
  /* color: white;*/
 }
 
@@ -29,5 +31,17 @@ body {
 }
 
 .about {
-  height: 100vh;
+  background: red;
+}
+
+.rules {
+  background: orange;
+}
+
+.faq {
+  background: yellow;
+}
+
+.practice-info {
+  background: green;
 }
