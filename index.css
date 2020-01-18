@@ -24,6 +24,10 @@ body {
   color: #c6c6c6;
 }
 
+.hero-body {
+    margin-left: 3em!important;
+}
+
 .hero-foot {
   margin-bottom: 4em;
 }
@@ -43,13 +47,13 @@ body {
 li {
   margin-left: 2em;
   margin-right: 2em;
-  font-size: 1em!important;
+  font-size: 1.75em;
+  list-style-type: none;
 }
 
-li {
-  margin-left: 3em;
-  margin-right: 3em;
-  font-size: 2em;
+.answer {
+    margin-left: 3em;
+    font-size: 1.75em;
 }
 
 .footer {
