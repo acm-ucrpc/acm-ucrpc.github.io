@@ -21,7 +21,7 @@ body {
 /*ACM@UCR PRESENTS*/
 .top-text {
   font-size: 1.8em;
-  margin-top: 20vh;
+  margin-top: 4em;
   text-align: center;
   letter-spacing:0.5em;
   text-indent: 0.5em;
@@ -35,6 +35,15 @@ body {
   text-indent: 0.5em;
   margin: auto;
   font-weight: 500;
+}
+
+.hero-foot {
+  margin-bottom: 4em;
+}
+
+#apply-link {
+  font-size: 1.75em;
+  letter-spacing: 0.5em;
 }
 
 .textbox {
