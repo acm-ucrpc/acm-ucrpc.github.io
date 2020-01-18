@@ -63,13 +63,13 @@ li {
 }
 
 .practice-info {
-  font-size: 2vw;
+  font-size: 1.8em;
   font-family: Nunito;
   line-height: 2em;
-  margin-top: auto;
-  margin-bottom: 20vh;
-  margin-right: auto;
+ /* margin-top: auto;*/
+  margin-bottom: 30vh;
   margin-left: auto;
+  margin-right: auto;
   /*font-weight: 500;*/
   color: #c6c6c6;
 }
