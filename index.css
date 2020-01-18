@@ -28,13 +28,12 @@ body {
   /*color: white;*/
 }
 
-/*UCRPC*/
+/* UCRPC */
 #huge-title {
-  font-size: 13em;
+  font-size: 10vw;
   letter-spacing:0.5em;
   text-indent: 0.5em;
   margin: auto;
-  /*color: white;*/
   font-weight: 500;
 }
 
