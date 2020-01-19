@@ -62,14 +62,57 @@ li {
   height: auto;
 }
 
-.practice-info {
+.practice-info-text {
   font-size: 1.8em;
   font-family: Nunito;
   line-height: 2em;
- /* margin-top: auto;*/
-  margin-bottom: 30vh;
+  color: #c6c6c6;
+
+}
+
+
+/*.parent {
+  position: relative;
+
+}
+
+.absolute{
+  position: absolute;
+  left: 10px;
+  text-align: center;
+
+}*/
+
+/*.practice-info { 
+  background-image: url("assets/practiceinfoastro.svg");
+  background-image: url("assets/rectangleframe.svg");
+  background-repeat: no-repeat;
+  background-size: 50vw 50vh;
+  /*background-attachment: fixed;
+  background-position: center bottom 2vh;
+}*/
+
+.practice-info-text-container {
+
+}
+
+.practice-info-img {
+  height: 50vh;
+  width: 50vw;
+  padding-bottom: 2vh;
+  position: center;
   margin-left: auto;
   margin-right: auto;
-  /*font-weight: 500;*/
-  color: #c6c6c6;
+}
+
+
+.rectangle-frame {
+  background-image: url("assets/rectangleframe.svg");
+  background-repeat: no-repeat;
+  /*padding-top: 4em;*/
+  background-size: 1024px 256px;
+  /*width: 90%;*/
+  /*background-attachment: fixed;*/
+  background-position: center;
+  background-color: green;
 }
