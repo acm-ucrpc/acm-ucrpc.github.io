@@ -5,38 +5,103 @@ body {
   color: #c6c6c6;
 }
 
+.banner {
+  background-color: black;
+  z-index: 2;
+}
+
+.about-link {
+  position: absolute;
+  margin-top: 10vh;
+  margin-left: 5vw;;
+}
+
+.faq-link {
+  position: absolute;
+  margin-top: 10vh;
+  margin-left: 93vw;;
+}
+
+.practice-link {
+  position: absolute;
+  margin-top: 87vh;
+  margin-left: 5vw;;
+}
+
+.rules-link {
+  position: absolute;
+  margin-top: 87vh;
+  margin-left: 92vw;;
+}
+
+
+.left-rectangle { 
+  position: absolute;
+  z-index: 1;
+  border: thin solid white;
+  border-right: black;
+  height: 70vh;
+  width: 30vw;
+  margin-bottom: 15vh;
+  margin-top: 15vh;
+  margin-left: 5vw;
+}
+
+.right-rectangle { 
+  position: absolute;
+  z-index: 1;
+  border: thin solid white;
+  border-left: black;
+  height: 70vh;
+  width: 30vw;
+  margin-bottom: 15vh;
+  margin-top: 15vh;
+  margin-left: 65vw;
+}
+
+.has-image-centered {
+  position: absolute;
+  margin-top: 10vh;
+  margin-left: 20vw;
+  width: 60vw;
+  height: 60vh;
+}
+
 /*ACM@UCR PRESENTS*/
-.top-text {
-  font-size: 1.8em;
-  margin-top: 4em;
+#top-text {
+  font-size: 1.8vw;
+  /* margin-top: 10vh; */
+  margin-bottom: 5vh;
   text-align: center;
-  letter-spacing:0.5em;
-  text-indent: 0.5em;
+  letter-spacing:0.5vw;
+  text-indent: 0.5vw;
+}
+
+#bottom-text {
+  /* margin-bottom: 10vh; */
+  text-align: center;
+}
+
+#apply-link {
+  font-size: 1.8vw;
+  letter-spacing: 0.5vw;
+  text-align: center;
+  text-indent: 0.5vw;
+  color: #c6c6c6;
 }
 
 /* UCRPC */
-#huge-title {
-  font-size: 10vw;
-  letter-spacing:0.5em;
-  text-indent: 0.5em;
+#main-title {
+  position: relative;
   margin: auto;
+  text-align: center;
+  font-size: 10vw;
+  letter-spacing:0.5vw;
+  text-indent: 0.5vw;
   font-weight: 500;
   color: #c6c6c6;
 }
 
-.hero-body {
-    margin-left: 3em!important;
-}
-
-.hero-foot {
-  margin-bottom: 4em;
-}
-
-#apply-link {
-  font-size: 1.75em;
-  letter-spacing: 0.5em;
-  color: #c6c6c6;
-}
 
 .textbox {
   margin-left: 10vw;
