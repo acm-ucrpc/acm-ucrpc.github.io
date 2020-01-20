@@ -7,37 +7,91 @@ body {
 
 .banner {
   background-color: black;
+  z-index: 1;
+  position: relative;
+}
+
+.top-text {
+  position: absolute;
+  width: 100%;
+  margin-top: 15vh;
+  text-align: center;
+  line-height: 0.0;
+  letter-spacing:0.5vw;
+  text-indent: 0.5vw;
+  font-size: 1.8vw;
+  
+  /*z-index: 2;*/
+}
+
+.bottom-text {
+  position: absolute;
+  width: 100%;
+  margin-top: 85vh;
+  text-align: center;
+  line-height: 0.0;
+  letter-spacing:0.5vw;
+  text-indent: 0.5vw;
+  font-size: 1.8vw;
+}
+
+/* UCRPC */
+#main-title {
+  
+  position: center;
+  margin: auto;
+  text-align: center;
+  font-size: 14vw;
+  letter-spacing:5vw;
+  text-indent: 5vw;
+  font-weight: 500;
+  color: #c6c6c6;
   z-index: 2;
+}
+
+.date {
+  position: absolute;
+  margin-top: 65vh;
+  width: 100%;
+  text-align: center;
+  font-size: 7vw;
 }
 
 .about-link {
   position: absolute;
   margin-top: 10vh;
-  margin-left: 5vw;;
+  margin-left: 5vw;
+
 }
 
 .faq-link {
   position: absolute;
+  width: 100%;
+  text-align: right;
   margin-top: 10vh;
-  margin-left: 93vw;;
+  margin-left: -5vw;
 }
 
 .practice-link {
   position: absolute;
   margin-top: 87vh;
-  margin-left: 5vw;;
+  margin-left: 5vw;
 }
 
 .rules-link {
   position: absolute;
   margin-top: 87vh;
-  margin-left: 92vw;;
+  margin-left: -5vw;
+  width: 100%;
+  text-align: right;
 }
+
+
 
 
 .left-rectangle { 
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   border: thin solid white;
   border-right: black;
   height: 70vh;
@@ -49,7 +103,7 @@ body {
 
 .right-rectangle { 
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   border: thin solid white;
   border-left: black;
   height: 70vh;
@@ -59,28 +113,18 @@ body {
   margin-left: 65vw;
 }
 
-.has-image-centered {
+/*.has-image-centered {
   position: absolute;
-  margin-top: 10vh;
-  margin-left: 20vw;
+  margin: auto;
+  
   width: 60vw;
   height: 60vh;
-}
+}*/
 
 /*ACM@UCR PRESENTS*/
-#top-text {
-  font-size: 1.8vw;
-  /* margin-top: 10vh; */
-  margin-bottom: 5vh;
-  text-align: center;
-  letter-spacing:0.5vw;
-  text-indent: 0.5vw;
-}
 
-#bottom-text {
-  /* margin-bottom: 10vh; */
-  text-align: center;
-}
+
+
 
 #apply-link {
   font-size: 1.8vw;
@@ -90,17 +134,7 @@ body {
   color: #c6c6c6;
 }
 
-/* UCRPC */
-#main-title {
-  position: relative;
-  margin: auto;
-  text-align: center;
-  font-size: 10vw;
-  letter-spacing:0.5vw;
-  text-indent: 0.5vw;
-  font-weight: 500;
-  color: #c6c6c6;
-}
+
 
 
 .textbox {
@@ -136,7 +170,8 @@ li {
   font-family: Nunito;
   line-height: 2em;
   color: #c6c6c6;
-
+  margin-left: 7vw;
+  margin-right: 7vw;
 }
 
 
@@ -161,9 +196,7 @@ li {
   background-position: center bottom 2vh;
 }*/
 
-.practice-info-text-container {
 
-}
 
 .practice-info-img {
   height: 50vh;
@@ -175,13 +208,14 @@ li {
 }
 
 
-.rectangle-frame {
-  background-image: url("assets/rectangleframe.svg");
+.banner-image {
+  background-image: url("assets/titleastro.svg");
   background-repeat: no-repeat;
-  /*padding-top: 4em;*/
-  background-size: 1024px 256px;
-  /*width: 90%;*/
-  /*background-attachment: fixed;*/
+  background-size: 90vw 90vh;
   background-position: center;
-  background-color: green;
+  
+}
+
+.green {
+   background-color: green;
 }
