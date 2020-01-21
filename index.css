@@ -150,16 +150,55 @@ body {
   font-family: Nunito;
 }
 
+.hundred-participants {
+  
+  width: 50%;
+  position: absolute;
+  margin-top: 40vh;
+  /*margin-left: 20vw;*/
+  text-align: center; 
+}
+
+.four-prizes {
+  width: 25%;
+  position: absolute;
+  margin-top: 60vh;
+  text-align: center;
+}
+
+.five-hours {
+  width: 25%;
+  position: absolute;
+  margin-top: 60vh;
+  margin-left: 25vw;
+  text-align: center;
+}
+
+.about-numbers {
+  font-size: 5vw;
+}
+
+.about-keywords {
+  font-size: 2.2vw;
+}
+
+
+
+
+#faq-ol {
+  margin-left: 20vw;
+}
+
+
 li {
- margin-left: 10vw;
-  margin-right: 10vw;
+
   font-size: 1.2vw;
   list-style-type: none;
 }
 
 .answer {
     margin-left: 3em;
-    /*font-size: 1.75em;*/
+    font-size: 1.2vw;
 }
 
 .footer {
@@ -177,7 +216,7 @@ li {
   font-family: Nunito;
   line-height: 2vw;
   color: #c6c6c6;
-  margin-top: 25vh;
+  margin-top: 30vh;
 }
 
 a:link {
@@ -194,6 +233,10 @@ a:visited {
 
 ol {
   list-style: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 15vw;
+  margin-right: 10vw;
 }
 
 ol li::before {
@@ -217,14 +260,7 @@ ol li::before {
 
 
 
-.practice-info-img {
-  height: 50vh;
-  width: 50vw;
-  padding-bottom: 2vh;
-  position: center;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 
 .banner-image {
@@ -240,7 +276,35 @@ ol li::before {
   bottom: 0;
   right: 0;
   z-index: 1;
-  /*line-height:0;*/
   width: 40vw;
-  
+}
+
+.rules-image {
+
+  position: absolute;
+  bottom: 0;
+  left: 25.5%;
+  z-index: -1;
+  width: 50vw;
+
+}
+
+.faq-image {
+
+  position: absolute;
+  z-index: 1;
+  width: 18vw;
+  top:0;
+  bottom:0;
+  margin: auto;
+}
+
+
+.practice-info-image {
+  height: 50vh;
+  width: 50vw;
+  padding-bottom: 2vh;
+  position: center;
+  margin-left: auto;
+  margin-right: auto;
 }
