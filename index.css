@@ -145,12 +145,12 @@ li {
 
 .answer {
     margin-left: 3em;
-    font-size: 1.75em;
+    /*font-size: 1.75em;*/
 }
 
 .footer {
   padding: 2em;
-  background-color: #303030;
+  background-color: black;
 }
 
 #rocket-icon {
@@ -166,6 +166,31 @@ li {
   margin-top: 20vh;
 }
 
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+ol {
+  list-style: none;
+}
+
+ol li::before {
+  content: "\2022";
+  color: white;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+  line-height: 2em;
+}
 
 /*.practice-info { 
   background-image: url("assets/practiceinfoastro.svg");
