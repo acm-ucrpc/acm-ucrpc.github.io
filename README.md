@@ -1,4 +1,3 @@
-# acm-ucrpc.github.io
-https://ucrpc.net
+# ucrpc.net
 
-Hello Charles testing 2
+The official website of UCRPC 2020.
