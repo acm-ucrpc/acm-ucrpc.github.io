@@ -1,7 +1,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
-  background-color: #303030;
+  background-color: black;
   color: #c6c6c6;
 }
 
@@ -42,7 +42,7 @@ body {
   text-indent: 0.5em;
   z-index: 4;
 
-  background-color: black;
+  
   font-size: 2.2vw;
   letter-spacing: 0.5em;
   font-weight: 600;
@@ -204,9 +204,11 @@ li {
 .footer {
   padding: 2em;
   background-color: black;
+  position: relative;
+
 }
 
-#rocket-icon {
+#rocket-icon, #acmlogo {
   width: 1em;
   height: auto;
 }
