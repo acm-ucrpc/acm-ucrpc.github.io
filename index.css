@@ -24,6 +24,10 @@ body {
   z-index: 2;
 }
 
+a:hover {
+  background-color: yellow;
+}
+
 #date {
   position: absolute;
   /*margin-top: 12.5em;*/
