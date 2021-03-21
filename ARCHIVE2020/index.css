@@ -1,0 +1,318 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  background-color: black;
+  color: #c6c6c6;
+}
+
+.banner {
+  background-color: black;
+  z-index: 1;
+  position: relative;
+}
+
+/* UCRPC */
+#main-title {
+  
+  margin: auto;
+  text-align: center;
+  font-size: 14vw;
+  letter-spacing: 0.5em;
+  text-indent: 7vw;
+  font-weight: 500;
+  color: rgba(255,255,255,0.8);
+  z-index: 2;
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+#date {
+  position: absolute;
+  /*margin-top: 12.5em;*/
+  width: 100%;
+  text-align: center;
+  /*font-size: 3em;*/
+
+  font-size: 3.2vw;
+  margin-top: 65vh;
+}
+
+.top-text {
+  position: absolute;
+  width: 100%;
+  margin-top: 15vh;
+  text-align: center;
+  line-height: 0.0;
+  text-indent: 0.5em;
+  z-index: 4;
+
+  
+  font-size: 2.2vw;
+  letter-spacing: 0.5em;
+  font-weight: 600;
+}
+
+.apply-link {
+  position: absolute;
+  width: 100%;
+  margin-top: 85vh;
+  text-align: center;
+  line-height: 0.0;
+  color: #c6c6c6;
+  text-indent: 1em;
+
+  letter-spacing:0.5em;
+  font-size: 2.2vw;
+  font-weight: 600;
+}
+
+.about-link {
+  position: absolute;
+  margin-top: 10vh;
+  margin-left: 5vw;
+  line-height: 0;
+}
+
+.faq-link {
+  position: absolute;
+  width: 100%;
+  text-align: right;
+  margin-top: 10vh;
+  margin-left: -4.1vw;
+  line-height: 0;
+}
+
+.practice-link {
+  position: absolute;
+  margin-top: 90vh;
+  margin-left: 5vw;
+  line-height: 0;
+}
+
+.rules-link {
+  position: absolute;
+  width: 100%;
+  margin-top: 90vh;
+  margin-left: -4.1vw;
+  line-height: 0;
+  text-align: right;
+}
+
+
+.banner-small-text-font {
+  letter-spacing:0.5em;
+  font-size: 2.2vw;
+  font-weight: 600;
+  font-style: italic;
+}
+
+
+.left-rectangle { 
+  position: absolute;
+  z-index: -1;
+  border: thin solid white;
+  border-right: black;
+  height: 70vh;
+  width: 20vw;
+  margin-bottom: 15vh;
+  margin-top: 15vh;
+  margin-left: 5vw;
+}
+
+.right-rectangle { 
+  position: absolute;
+  z-index: -1;
+  border: thin solid white;
+  border-left: black;
+  height: 70vh;
+  width: 20vw;
+  margin-bottom: 15vh;
+  margin-top: 15vh;
+  margin-left: 75vw;
+}
+
+/*.has-image-centered {
+  position: absolute;
+  margin: auto;
+  
+  width: 60vw;
+  height: 60vh;
+}*/
+
+/*ACM@UCR PRESENTS*/
+
+
+
+
+
+
+.about-textbox {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 25vh;
+  font-size: 2vw;
+  font-family: 'Nunito';
+}
+
+.hundred-participants {
+  
+  width: 50%;
+  position: absolute;
+  margin-top: 40vh;
+  /*margin-left: 20vw;*/
+  text-align: center; 
+}
+
+.four-prizes {
+  width: 25%;
+  position: absolute;
+  margin-top: 60vh;
+  text-align: center;
+}
+
+.five-hours {
+  width: 25%;
+  position: absolute;
+  margin-top: 60vh;
+  margin-left: 25vw;
+  text-align: center;
+}
+
+.about-numbers {
+  font-size: 5vw;
+}
+
+.about-keywords {
+  font-size: 2.2vw;
+}
+
+
+
+
+#faq-ol {
+  margin-left: 20vw;
+}
+
+
+li {
+
+  font-size: 1.2vw;
+  list-style-type: none;
+}
+
+.answer {
+    margin-left: 3em;
+    font-size: 1.2vw;
+}
+
+.footer {
+  padding: 2em;
+  background-color: black;
+  position: relative;
+
+}
+
+#rocket-icon, #acmlogo {
+  width: 1em;
+  height: auto;
+}
+
+.practice-info-text {
+  font-size: 1.8vw;
+  font-family: Nunito;
+  line-height: 2vw;
+  color: #c6c6c6;
+  margin-top: 30vh;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+ol {
+  list-style: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 15vw;
+  margin-right: 10vw;
+}
+
+ol li::before {
+  content: "\2022";
+  color: white;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+  line-height: 2em;
+}
+
+/*.practice-info { 
+  background-image: url("assets/practiceinfoastro.svg");
+  background-image: url("assets/rectangleframe.svg");
+  background-repeat: no-repeat;
+  background-size: 50vw 50vh;
+  /*background-attachment: fixed;
+  background-position: center bottom 2vh;
+}*/
+
+
+
+
+
+
+.banner-image {
+  background-image: url("assets/titleastro.svg");
+  background-repeat: no-repeat;
+  background-size: 95vw 95vh;
+  background-position: center;
+  
+}
+
+.about-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  width: 40vw;
+}
+
+.rules-image {
+
+  position: absolute;
+  bottom: 0;
+  left: 25.5%;
+  z-index: -1;
+  width: 50vw;
+
+}
+
+.faq-image {
+
+  position: absolute;
+  z-index: 1;
+  width: 18vw;
+  top:0;
+  bottom:0;
+  margin: auto;
+}
+
+
+.practice-info-image {
+  height: 50vh;
+  width: 50vw;
+  padding-bottom: 2vh;
+  position: center;
+  margin-left: auto;
+  margin-right: auto;
+}
