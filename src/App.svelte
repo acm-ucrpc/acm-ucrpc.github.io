@@ -1,10 +1,11 @@
 <script>
 	import Navbar from "./Navbar.svelte"
+	import Footer from "./Footer.svelte"
 	
 </script>
 <svelte:head>
 
-	<title>CCC@UCR</title>
+	<title>CCC at UCR</title>
 
 </svelte:head>
 
@@ -27,12 +28,6 @@
 			
 		</div>
 	</div>
-
-	<div class="footer">
-
-		Visit our instagram and join our slack and discord! 
-	
-	</div>
-
+	<Footer/>
 </body>
 

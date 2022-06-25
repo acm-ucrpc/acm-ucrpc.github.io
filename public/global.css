@@ -5,6 +5,7 @@ html, body {
 	height: 100%;
 	margin: 0px;
 	padding: 0px; 
+	overflow-x: hidden; 
 }
 
 /* REMEMBER HTML AND BODY SHARE SOME OF THE SAME STUFF */
@@ -77,8 +78,7 @@ button:focus {
 	margin:0px;
 	padding:0px; 
 	display: inline-block; 
-	/* overflow: hidden;  */
-    /* background-size: 300px 300px; */
+	overflow-x: hidden;
 
 }
 
@@ -86,18 +86,21 @@ button:focus {
 	/* background-color: black; */
 	/* color: white; */
 	margin: 20px;
-	padding: 20px; 
 	border-style: solid; 
 	border-color: black;
+	overflow-x: hidden;
 }
 
 .article {
 	text-align: left;
-	margin-top: 10px; 
-	margin: 20px;
-	padding: 20%; 
-	padding-top: 0px; 
+	margin-top: 0px; 
+	margin-bottom: 0px;
+	padding-top: 0px;
 	padding-bottom: 0px; 
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 20px; 
+	
 	border-style: solid; 
 	border-color: red;
 	
@@ -105,13 +108,16 @@ button:focus {
 }
 
 .footer {
-	height: 50px; 
-	margin-top: 5px;
-	padding: 10px;
-	margin:0px; 
+	position: absolute;
+	bottom: 0; 
+	width: 100%;
+	height: 60px;
+	margin: 0px;  
+	padding: 0px; 
+	
 	border-style: solid; 
 	border-color: blue;
-	
+	overflow: hidden;
 }
 
 .center {
