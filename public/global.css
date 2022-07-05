@@ -68,19 +68,46 @@ button:focus {
 }
 
 
+.navbar {
+	background-color: darkslategrey;
+	list-style-type:none;
+	color: goldenrod; 
+	width: 100%;
+	height: 50px; 
+	position: fixed;
+	top: 0;  
+	
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	background-color: darkslategrey;
+	color: goldenrod; 
+}
+
+.navbar a:hover {
+	background-color: rgb(39, 65, 65);
+	color: palevioletred;
+}
+
 .hero {
-	background: rgb(240, 224, 44); 
-	background-image: linear-gradient(90deg, rgba(211, 47, 47, 0.898)  50%, transparent 0),
-                      linear-gradient(rgba(54, 97, 216, 0.806)   50%, transparent 0);
+	background-image:  url("/images/background.png");
+	background-repeat: repeat;
 	font-size: 3rem; 
-	color: white; 
+	color: whitesmoke; 
 	width: 100%;  
+	height: 400px;
 	margin:0px;
 	padding:0px; 
 	display: inline-block; 
-	overflow-x: hidden;
-
+	/* overflow-x: hidden; */
 }
+
+
 
 .container {
 	/* background-color: black; */
@@ -88,7 +115,8 @@ button:focus {
 	margin: 20px;
 	border-style: solid; 
 	border-color: black;
-	overflow-x: hidden;
+	
+
 }
 
 .article {
@@ -108,18 +136,31 @@ button:focus {
 }
 
 .footer {
-	position: absolute;
-	bottom: 0; 
+
 	width: 100%;
-	height: 60px;
+	height: 200px;
 	margin: 0px;  
 	padding: 0px; 
-	
-	border-style: solid; 
-	border-color: blue;
-	overflow: hidden;
+	list-style-type:none;
+	color: goldenrod;
+	background-color: darkslategrey;
+
 }
 
+.footer a {
+	color: palevioletred;
+}
+
+.footer a:hover {
+	color: brown;
+}
+
+
+.footer-contents {
+	padding: 20px;
+	
+	
+}
 .center {
 	text-align: center; 
 

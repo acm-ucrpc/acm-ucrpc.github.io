@@ -2,18 +2,17 @@
 
 
 <div class="footer">
-	<div class="container">
+	<div class="footer-contents">
 	Visit our instagram and join our slack and discord! 
 
-    <div class="center">
+    <div>
         <!-- how it works using html -->
-        <a href="mailto:ccc_ucr@gmail.com"><i class="fa fa-envelope"></i></a>
-        <a href="https://github.com/orgs/acm-ucrpc"><i class="fa fa-github"></i></a>
-        <a href="https://instagram.com/ccc_ucr"><i class="fa fa-instagram"></i></a>
-        <a href="http://cccatucr.slack.com/"><i class="fa fa-slack"></i></a>
-        <a href="https://discord.gg/BTb4kZPFsY"><i class="fa fa-discord"></i></a> 
-        <a href="https://codeforces.com/group/1uT235pchJ"><i class="codeforces"></i></a>
-       
+        <li><a href="mailto:ccc_ucr@gmail.com">email</a></li>
+        <li><a href="https://github.com/">Github</a></li>
+        <li><a href="https://instagram.com/ccc_ucr">Instagram</a></li>
+        <li><a href="http://cccatucr.slack.com/">Slack</a></li>
+        <li><a href="https://discord.gg/BTb4kZPFsY">Discord</a></li> 
+        <li><a href="https://codeforces.com/group/1uT235pchJ">Codeforces</a></li>
 
     </div>
 
