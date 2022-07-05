@@ -1,2 +1,2 @@
-# ucrpc.net
-Official Website for UCRPC 2021
+# CCC website 
+Competitive Coding Club at UCR or CCC for short. 
