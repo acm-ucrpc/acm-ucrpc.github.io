@@ -7,13 +7,12 @@ header {
     background-color: #4663FEEE;
     justify-content: space-around;
     align-items: center;
-    padding: 10px;
     font-size: 1em;
 }
 
 .header-logo {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     object-fit: cover;
     object-position: center;
     cursor: pointer;
@@ -48,14 +47,19 @@ nav {
 @media screen and (max-width: 500px) {
     header{
         font-size: 0.8em;
-        background-color: black;
+        background-color: #4663FEEE;
         flex-direction: column;
+        padding: 5px;
+    }
+    .header-logo {
+        height: 40px;
+        width: 40px;
     }
     nav {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        height: 50px;
+        height: 30px;
     }
     .header-item {
         cursor: pointer;
