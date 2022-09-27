@@ -7,7 +7,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 60px 20px;
+    padding: 0 20px;
+    padding-top: 60px;
 }
 
 .front-title {
@@ -38,4 +39,8 @@ main {
 .text p {
     margin: 1rem 0;
     padding: 0;
+}
+
+.body {
+    padding-top: 80px;
 }
