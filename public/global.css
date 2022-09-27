@@ -1,0 +1,167 @@
+html, body {
+	position: relative;
+	background-color: hsl(0, 0%, 100%);
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px; 
+	overflow-x: hidden; 
+}
+
+/* REMEMBER HTML AND BODY SHARE SOME OF THE SAME STUFF */
+body {
+	color: rgb(38, 38, 38);
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgb(0,80,160);
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
+
+
+.navbar {
+	background-color: darkslategrey;
+	list-style-type:none;
+	color: goldenrod; 
+	width: 100%;
+	height: 50px; 
+	position: fixed;
+	top: 0;  
+	
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	background-color: darkslategrey;
+	color: goldenrod; 
+}
+
+.navbar a:hover {
+	background-color: rgb(39, 65, 65);
+	color: palevioletred;
+}
+
+.hero {
+	background-image:  url("/images/background.png");
+	background-repeat: repeat;
+	font-size: 3rem; 
+	color: whitesmoke; 
+	width: 100%;  
+	height: 400px;
+	margin:0px;
+	padding:0px; 
+	display: inline-block; 
+	/* overflow-x: hidden; */
+}
+
+
+
+.container {
+	/* background-color: black; */
+	/* color: white; */
+	margin: 20px;
+	border-style: solid; 
+	border-color: black;
+	
+
+}
+
+.article {
+	text-align: left;
+	margin-top: 0px; 
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px; 
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 20px; 
+	
+	border-style: solid; 
+	border-color: red;
+	
+
+}
+
+.footer {
+
+	width: 100%;
+	height: 200px;
+	margin: 0px;  
+	padding: 0px; 
+	list-style-type:none;
+	color: goldenrod;
+	background-color: darkslategrey;
+
+}
+
+.footer a {
+	color: palevioletred;
+}
+
+.footer a:hover {
+	color: brown;
+}
+
+
+.footer-contents {
+	padding: 20px;
+	
+	
+}
+.center {
+	text-align: center; 
+
+}
