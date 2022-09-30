@@ -3,8 +3,12 @@ footer {
     bottom: 0;
     right: 0;
     left: 0;
-
-    height: 200px;
+    padding: 5%;
+    height: 100px;
     background-color: rgb(107, 107, 107);
 }
 
+.footer-container {
+    display: flex;
+    flex-direction: column;
+}

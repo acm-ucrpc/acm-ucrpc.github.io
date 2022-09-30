@@ -6,10 +6,10 @@ body {
     background-color: #E6E6E6;
 }
 
-p a, li a {
+p a, li a, .footer-container a {
     transition-duration: 0.2s;
 }
 
-p a:hover, li a:hover {
+p a:hover, li a:hover, .footer-container a:hover {
     font-weight: 600;
 }
