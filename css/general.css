@@ -5,3 +5,11 @@ body {
     font-size: 18px;
     background-color: #E6E6E6;
 }
+
+p a, li a {
+    transition-duration: 0.2s;
+}
+
+p a:hover, li a:hover {
+    font-weight: 600;
+}
