@@ -1,14 +1,15 @@
-footer {
-    
-    bottom: 0;
-    right: 0;
-    left: 0;
-    padding: 5%;
-    height: 100px;
-    background-color: rgb(107, 107, 107);
-}
-
 .footer-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 2% 5%;
+    margin-top: 5%;
+    background-color: #E6E6E6;
+}
+
+.footer-container a {
+    color:black;
 }

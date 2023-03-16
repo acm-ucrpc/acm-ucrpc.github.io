@@ -3,7 +3,8 @@ body {
 
     font-family: Poppins, Arial;
     font-size: 18px;
-    background-color: #E6E6E6;
+    /* background-color: #E6E6E6; */
+    background-color: white;
 }
 
 p a, li a, .footer-container a {
